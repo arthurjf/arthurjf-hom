@@ -1,0 +1,455 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ArthurJF">
+
+    <title>ArthurJF</title>
+
+    <!-- Styles / Scripts -->
+    <link rel="preload" as="style" href="/build/assets/app-32YS1Boh.css" /><link rel="preload" as="style" href="/build/assets/app-Du8Y8EHi.css" /><link rel="modulepreload" as="script" href="/build/assets/app-Bhr_QaDC.js" /><link rel="stylesheet" href="/build/assets/app-32YS1Boh.css" /><link rel="stylesheet" href="/build/assets/app-Du8Y8EHi.css" /><script type="module" src="/build/assets/app-Bhr_QaDC.js"></script></head>
+
+<body class="container-fluid min-vh-100 p-0 bg-dark" data-bs-theme="dark">
+    <!-- ArthurJF -->
+    <!-- Versão: 0.3.0 -->
+        <header>
+        <header id="site-header" class="py-3 fixed-top">
+    <div class="container d-flex justify-content-between align-items-center position-relative">
+        <!-- Página principal -->
+        <a href="/" class="text-decoration-none transition-colors z-3 nav-link-hover p-2 rounded-circle"
+           aria-label="Página inicial" data-bs-toggle="tooltip" data-bs-title="Página inicial"
+           data-bs-delay='{"show":900,"hide":100}'>
+            <i class="bi bi-house-fill h4 mb-0"></i>
+        </a>
+
+        <!-- Navegação Desktop -->
+        <nav class="d-none d-lg-flex btn-group position-absolute start-50 translate-middle-x" role="navigation"
+             role="navigation" aria-label="Navegação Principal">
+                            <a href="/career"
+                   class="btn btn-outline-light px-4 text-nowrap rounded-start-pill border-end-0"
+                   data-bs-toggle="tooltip"
+                   data-bs-placement="bottom"
+                   data-bs-title="Minha trajetória profissional e experiências relevantes."
+                   data-bs-delay='{"show":900,"hide":100}'>
+                    <i class="bi bi-briefcase-fill me-2"></i><span>Carreira</span>
+                </a>
+                            <a href="/portfolio"
+                   class="btn btn-outline-light px-4 text-nowrap border-end-0 active"
+                   data-bs-toggle="tooltip"
+                   data-bs-placement="bottom"
+                   data-bs-title="Projetos pessoais e profissionais desenvolvidos ao longo do tempo."
+                   data-bs-delay='{"show":900,"hide":100}'>
+                    <i class="bi bi-grid-fill me-2"></i><span>Portfólio</span>
+                </a>
+                            <a href="/certifications"
+                   class="btn btn-outline-light px-4 text-nowrap border-end-0"
+                   data-bs-toggle="tooltip"
+                   data-bs-placement="bottom"
+                   data-bs-title="Cursos e certificações obtidas para aprimorar minhas habilidades."
+                   data-bs-delay='{"show":900,"hide":100}'>
+                    <i class="bi bi-award-fill me-2"></i><span>Certificações</span>
+                </a>
+                            <a href="/lab"
+                   class="btn btn-outline-light px-4 text-nowrap rounded-end-pill"
+                   data-bs-toggle="tooltip"
+                   data-bs-placement="bottom"
+                   data-bs-title="Experimentos, protótipos e projetos em desenvolvimento."
+                   data-bs-delay='{"show":900,"hide":100}'>
+                    <i class="bi bi-flask me-2"></i><span>Laboratório</span>
+                </a>
+                    </nav>
+
+        <!-- Botão para currículo -->
+        <a href="/career"
+           class="d-none d-lg-inline-flex align-items-center btn btn-primary rounded-pill px-4 transition-all text-nowrap">
+            <i class="bi bi-file-earmark-person-fill me-2"></i><span>Currículo</span>
+        </a>
+
+        <!-- Botão para menu mobile -->
+        <button class="btn text-white d-lg-none z-3 border-0 p-0 mobile-menu-toggle"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenu"
+                aria-controls="mobileMenu">
+            <i class="bi bi-list h2 mb-0"></i>
+        </button>
+
+    </div>
+</header>
+
+<!-- Offcanvas Mobile Menu -->
+<div class="offcanvas offcanvas-end text-bg-dark w-100" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header justify-content-end">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center gap-4">
+
+                    <a href="/career"
+               class="text-white text-decoration-none h4 fw-normal mb-0 mobile-nav-item ">
+                <i class="bi bi-briefcase-fill me-2"></i>Carreira
+            </a>
+                    <a href="/portfolio"
+               class="text-white text-decoration-none h4 fw-normal mb-0 mobile-nav-item fw-bold text-primary">
+                <i class="bi bi-grid-fill me-2"></i>Portfólio
+            </a>
+                    <a href="/certifications"
+               class="text-white text-decoration-none h4 fw-normal mb-0 mobile-nav-item ">
+                <i class="bi bi-award-fill me-2"></i>Certificações
+            </a>
+                    <a href="/lab"
+               class="text-white text-decoration-none h4 fw-normal mb-0 mobile-nav-item ">
+                <i class="bi bi-flask me-2"></i>Laboratório
+            </a>
+        
+        <a href="/career"
+           class="btn btn-primary btn-lg rounded-pill px-5 mt-3 mobile-nav-item">
+            <i class="bi bi-file-earmark-person-fill me-2"></i>Currículo
+        </a>
+    </div>
+</div>
+
+    </header>
+
+            <main class="min-vh-100">
+                <div class="app-page">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-4 mt-3">
+                                                <li class="breadcrumb-item"><a href="/">Início</a></li>
+                                                                <li class="breadcrumb-item"><a href="/portfolio">Portfólio</a></li>
+                                                                <li class="breadcrumb-item active">Desenvolvimento de Jogo Unity 2D</li>
+                                    </ol>
+    </nav>
+        </div>
+
+        
+            
+    <section class="project-hero">
+        
+                    <img src="https://placehold.co/1920x1080/1e1b4b/white?text=Level+Design"
+                 alt="Background"
+                 class="project-hero-background">
+        
+        
+        <div class="project-hero-content container">
+            
+            <div class="d-flex justify-content-center">
+                                    <img src="https://placehold.co/200x200/4f46e5/white?text=Game" alt="Desenvolvimento de Jogo Unity 2D Logo"
+                         class="project-logo img-fluid animate-up">
+                            </div>
+
+            
+            <p class="lead text-white text-opacity-75 mb-5 fs-4 animate-up delay-100 mx-auto" style="max-width: 800px;">
+                Game indie 2D desenvolvido em Unity, com geração procedural de níveis e sistema de física customizado.
+            </p>
+
+            
+            <div class="animate-up delay-200 d-flex gap-2 justify-content-center">
+                                                            <a href="#" target="_blank"
+                           class="btn btn-outline-light rounded-pill px-4 fw-bold d-flex align-items-center gap-2">
+                                                            <i class="bi bi-steam"></i>
+                                                        Steam
+                        </a>
+                                            <a href="#" target="_blank"
+                           class="btn btn-outline-light rounded-pill px-4 fw-bold d-flex align-items-center gap-2">
+                                                            <i class="bi bi-controller"></i>
+                                                        Itch.io
+                        </a>
+                                                </div>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <div class="row g-5">
+            
+            <div class="col-lg-8">
+
+                
+                                    <div class="mb-5">
+                        <h3 class="h4 text-white mb-4 border-start border-4 border-primary ps-3">Galeria</h3>
+
+                        <div id="projectGalleryCarousel" class="carousel slide gallery-carousel mb-3"
+                             data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                
+                                                                                                            <div
+                                            class="carousel-item ">
+                                            <div class="ratio ratio-16x9">
+                                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                                                    
+                                
+                                                                                                            <div
+                                            class="carousel-item ">
+                                            <img src="https://placehold.co/800x600/4f46e5/white?text=Gameplay+1" class="d-block w-100 object-fit-cover"
+                                                 alt="Gallery Image 1" style="aspect-ratio: 16/9;">
+                                        </div>
+                                                                            <div
+                                            class="carousel-item ">
+                                            <img src="https://placehold.co/800x600/4f46e5/white?text=Gameplay+2" class="d-block w-100 object-fit-cover"
+                                                 alt="Gallery Image 2" style="aspect-ratio: 16/9;">
+                                        </div>
+                                                                                                </div>
+
+                                                            <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#projectGalleryCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                        data-bs-target="#projectGalleryCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Próximo</span>
+                                </button>
+                                                    </div>
+
+                        
+                        <div class="row g-2 row-cols-4 row-cols-md-5">
+                                                                                                <div class="col">
+                                        <div class="gallery-thumbnail ratio ratio-16x9"
+                                             role="button"
+                                             onclick="bootstrap.Carousel.getInstance(document.getElementById('projectGalleryCarousel')).to(1)">
+                                            <img src="https://placehold.co/800x600/4f46e5/white?text=Gameplay+1" alt="Thumb 1">
+                                        </div>
+                                    </div>
+                                                                    <div class="col">
+                                        <div class="gallery-thumbnail ratio ratio-16x9"
+                                             role="button"
+                                             onclick="bootstrap.Carousel.getInstance(document.getElementById('projectGalleryCarousel')).to(2)">
+                                            <img src="https://placehold.co/800x600/4f46e5/white?text=Gameplay+2" alt="Thumb 2">
+                                        </div>
+                                    </div>
+                                                                                    </div>
+                    </div>
+                
+                
+                <div class="mb-5">
+                    <h3 class="h4 text-white mb-4 border-start border-4 border-primary ps-3">Sobre o Projeto</h3>
+                    <div
+                        class="prose prose-invert bg-dark bg-opacity-25 p-4 rounded-3 border border-secondary border-opacity-10">
+                        <h2>Visão Geral</h2>
+<p>Um jogo indie 2D criado em Unity que combina mecânicas de plataforma com puzzle-solving. O jogo utiliza geração procedural para criar níveis únicos a cada partida.</p>
+<h2>Recursos Principais</h2>
+<h3>Geração Procedural</h3>
+<ul>
+<li>Algoritmo de geração de dungeons usando Perlin noise</li>
+<li>Criação dinâmica de plataformas e inimigos</li>
+<li>Garantia de solvabilidade de níveis</li>
+</ul>
+<h3>Sistema de Física</h3>
+<ul>
+<li>Motor de física customizado para otimização</li>
+<li>Detecção de colisão pixel-perfect</li>
+<li>Movimento suave com interpolação</li>
+</ul>
+<h3>Gameplay</h3>
+<ul>
+<li>Mecânica de salto duplo</li>
+<li>Sistema de poderes coletáveis</li>
+<li>Inimigos com IA comportamental</li>
+</ul>
+<h2>Arquitetura</h2>
+<pre><code>Assets/
+├── Scripts/
+│   ├── Player/
+│   ├── Enemy/
+│   ├── Level/
+│   └── UI/
+├── Prefabs/
+├── Sprites/
+└── Audio/
+</code></pre>
+<h2>Otimizações</h2>
+<ul>
+<li>Object pooling para reduzir GC pauses</li>
+<li>Rendering otimizado com batching</li>
+<li>Carregamento assíncrono de assets</li>
+</ul>
+<h2>Resultados</h2>
+<ul>
+<li>Publicado na itch.io</li>
+<li>500+ downloads no primeiro mês</li>
+<li>Rating: 4.5/5 estrelas</li>
+</ul>
+
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-lg-4">
+                <div class="position-sticky" style="top: 100px;">
+
+                    
+                    <div class="card bg-dark border-secondary border-opacity-25 shadow-sm mb-4 info-card">
+                        <div class="card-header bg-transparent border-secondary border-opacity-25 py-3">
+                            <h5 class="card-title mb-0 text-white"><i class="bi bi-info-circle me-2"></i>Informações
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0 d-flex flex-column gap-3">
+                                <li class="d-flex justify-content-between align-items-center border-bottom border-secondary border-opacity-10 pb-2">
+                                    <span class="text-secondary"><i
+                                            class="bi bi-calendar-event me-2"></i>Lançamento</span>
+                                    <span
+                                        class="text-white fw-medium">20/01/2024</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center border-bottom border-secondary border-opacity-10 pb-2">
+                                    <span class="text-secondary"><i class="bi bi-person me-2"></i>Desenvolvedor</span>
+                                    <span
+                                        class="text-white fw-medium">Arthur Ferreira</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center border-bottom border-secondary border-opacity-10 pb-2">
+                                    <span class="text-secondary"><i class="bi bi-building me-2"></i>Publisher</span>
+                                    <span
+                                        class="text-white fw-medium">Indie Release</span>
+                                </li>
+                                                                    <li class="d-flex justify-content-between align-items-center border-bottom border-secondary border-opacity-10 pb-2">
+                                        <span class="text-secondary"><i
+                                                class="bi bi-controller me-2"></i>Plataformas</span>
+                                        <div class="d-flex gap-2">
+                                                                                            <span class="text-white" title="Steam"
+                                                      data-bs-toggle="tooltip">
+                                                                                                            <i class="bi bi-steam"></i>
+                                                                                                    </span>
+                                                                                            <span class="text-white" title="Itch.io"
+                                                      data-bs-toggle="tooltip">
+                                                                                                            <i class="bi bi-controller"></i>
+                                                                                                    </span>
+                                                                                    </div>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </div>
+
+                    
+                                            <div class="card bg-dark border-secondary border-opacity-25 shadow-sm mb-4 info-card">
+                            <div class="card-header bg-transparent border-secondary border-opacity-25 py-3">
+                                <h5 class="card-title mb-0 text-white"><i class="bi bi-code-slash me-2"></i>Tecnologias
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                                                            <span class="badge-tech">
+                                            C#
+                                        </span>
+                                                                            <span class="badge-tech">
+                                            Unity
+                                        </span>
+                                                                            <span class="badge-tech">
+                                            Game Development
+                                        </span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    
+                    
+                                            <div class="card bg-dark border-secondary border-opacity-25 shadow-sm mb-4 info-card">
+                            <div class="card-header bg-transparent border-secondary border-opacity-25 py-3">
+                                <h5 class="card-title mb-0 text-white"><i class="bi bi-share me-2"></i>Links Sociais
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-column gap-2">
+                                                                            <a href="#" target="_blank" class="social-link">
+                                            <span>
+                                                                                                    <i class="bi bi-discord me-2"></i>
+                                                                                                Discord
+                                            </span>
+                                            <i class="bi bi-box-arrow-up-right opacity-50"></i>
+                                        </a>
+                                                                            <a href="#" target="_blank" class="social-link">
+                                            <span>
+                                                                                                    <i class="bi bi-twitter-x me-2"></i>
+                                                                                                Twitter
+                                            </span>
+                                            <i class="bi bi-box-arrow-up-right opacity-50"></i>
+                                        </a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="module">
+        document.addEventListener('DOMContentLoaded', function () {
+            let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            });
+        });
+    </script>
+    </div>
+        </main>
+    
+    <footer>
+        <div class="py-4 border-top border-secondary-subtle">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <p class="mb-0 text-body-secondary">
+                    &copy; <span id="copyright-year"></span> <strong>Arthur José Fernandes</strong>. Todos os direitos
+                    reservados.
+                </p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="https://github.com/arthurjf"
+                            class="text-secondary link-light text-decoration-none fs-4 px-2" target="_blank"
+                            aria-label="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://linkedin.com/in/arthurjf"
+                            class="text-secondary link-light text-decoration-none fs-4 px-2" target="_blank"
+                            aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="mailto:contato@arthurjf.com.br"
+                            class="text-secondary link-light text-decoration-none fs-4 px-2" aria-label="Email">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
+</script>
+    </footer>
+
+            <div class="text-warning opacity-75"
+            style="position: fixed; bottom: 10px; right: 10px; font-size: 10px; background: rgba(0,0,0,0.9); padding: 4px 8px; border-radius: 3px; font-family: monospace; pointer-events: none;">
+            staging • ArthurJF • 0.3.0
+        </div>
+    
+        <script type="module">
+        document.addEventListener("DOMContentLoaded", function () {
+            const tooltipTriggerList = document.querySelectorAll('header [data-bs-toggle="tooltip"]')
+            if (window.bootstrap) {
+                [...tooltipTriggerList].map(tooltipTriggerEl => new window.bootstrap.Tooltip(tooltipTriggerEl));
+            }
+        });
+    </script>
+</body>
+
+</html>

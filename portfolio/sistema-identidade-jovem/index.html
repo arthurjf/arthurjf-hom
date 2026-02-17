@@ -1,0 +1,476 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ArthurJF">
+
+    <title>ArthurJF</title>
+
+    <!-- Styles / Scripts -->
+    <link rel="preload" as="style" href="/build/assets/app-32YS1Boh.css" /><link rel="preload" as="style" href="/build/assets/app-Du8Y8EHi.css" /><link rel="modulepreload" as="script" href="/build/assets/app-Bhr_QaDC.js" /><link rel="stylesheet" href="/build/assets/app-32YS1Boh.css" /><link rel="stylesheet" href="/build/assets/app-Du8Y8EHi.css" /><script type="module" src="/build/assets/app-Bhr_QaDC.js"></script></head>
+
+<body class="container-fluid min-vh-100 p-0 bg-dark" data-bs-theme="dark">
+    <!-- ArthurJF -->
+    <!-- Versão: 0.3.0 -->
+        <header>
+        <header id="site-header" class="py-3 fixed-top">
+    <div class="container d-flex justify-content-between align-items-center position-relative">
+        <!-- Página principal -->
+        <a href="/" class="text-decoration-none transition-colors z-3 nav-link-hover p-2 rounded-circle"
+           aria-label="Página inicial" data-bs-toggle="tooltip" data-bs-title="Página inicial"
+           data-bs-delay='{"show":900,"hide":100}'>
+            <i class="bi bi-house-fill h4 mb-0"></i>
+        </a>
+
+        <!-- Navegação Desktop -->
+        <nav class="d-none d-lg-flex btn-group position-absolute start-50 translate-middle-x" role="navigation"
+             role="navigation" aria-label="Navegação Principal">
+                            <a href="/career"
+                   class="btn btn-outline-light px-4 text-nowrap rounded-start-pill border-end-0"
+                   data-bs-toggle="tooltip"
+                   data-bs-placement="bottom"
+                   data-bs-title="Minha trajetória profissional e experiências relevantes."
+                   data-bs-delay='{"show":900,"hide":100}'>
+                    <i class="bi bi-briefcase-fill me-2"></i><span>Carreira</span>
+                </a>
+                            <a href="/portfolio"
+                   class="btn btn-outline-light px-4 text-nowrap border-end-0 active"
+                   data-bs-toggle="tooltip"
+                   data-bs-placement="bottom"
+                   data-bs-title="Projetos pessoais e profissionais desenvolvidos ao longo do tempo."
+                   data-bs-delay='{"show":900,"hide":100}'>
+                    <i class="bi bi-grid-fill me-2"></i><span>Portfólio</span>
+                </a>
+                            <a href="/certifications"
+                   class="btn btn-outline-light px-4 text-nowrap border-end-0"
+                   data-bs-toggle="tooltip"
+                   data-bs-placement="bottom"
+                   data-bs-title="Cursos e certificações obtidas para aprimorar minhas habilidades."
+                   data-bs-delay='{"show":900,"hide":100}'>
+                    <i class="bi bi-award-fill me-2"></i><span>Certificações</span>
+                </a>
+                            <a href="/lab"
+                   class="btn btn-outline-light px-4 text-nowrap rounded-end-pill"
+                   data-bs-toggle="tooltip"
+                   data-bs-placement="bottom"
+                   data-bs-title="Experimentos, protótipos e projetos em desenvolvimento."
+                   data-bs-delay='{"show":900,"hide":100}'>
+                    <i class="bi bi-flask me-2"></i><span>Laboratório</span>
+                </a>
+                    </nav>
+
+        <!-- Botão para currículo -->
+        <a href="/career"
+           class="d-none d-lg-inline-flex align-items-center btn btn-primary rounded-pill px-4 transition-all text-nowrap">
+            <i class="bi bi-file-earmark-person-fill me-2"></i><span>Currículo</span>
+        </a>
+
+        <!-- Botão para menu mobile -->
+        <button class="btn text-white d-lg-none z-3 border-0 p-0 mobile-menu-toggle"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenu"
+                aria-controls="mobileMenu">
+            <i class="bi bi-list h2 mb-0"></i>
+        </button>
+
+    </div>
+</header>
+
+<!-- Offcanvas Mobile Menu -->
+<div class="offcanvas offcanvas-end text-bg-dark w-100" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header justify-content-end">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center gap-4">
+
+                    <a href="/career"
+               class="text-white text-decoration-none h4 fw-normal mb-0 mobile-nav-item ">
+                <i class="bi bi-briefcase-fill me-2"></i>Carreira
+            </a>
+                    <a href="/portfolio"
+               class="text-white text-decoration-none h4 fw-normal mb-0 mobile-nav-item fw-bold text-primary">
+                <i class="bi bi-grid-fill me-2"></i>Portfólio
+            </a>
+                    <a href="/certifications"
+               class="text-white text-decoration-none h4 fw-normal mb-0 mobile-nav-item ">
+                <i class="bi bi-award-fill me-2"></i>Certificações
+            </a>
+                    <a href="/lab"
+               class="text-white text-decoration-none h4 fw-normal mb-0 mobile-nav-item ">
+                <i class="bi bi-flask me-2"></i>Laboratório
+            </a>
+        
+        <a href="/career"
+           class="btn btn-primary btn-lg rounded-pill px-5 mt-3 mobile-nav-item">
+            <i class="bi bi-file-earmark-person-fill me-2"></i>Currículo
+        </a>
+    </div>
+</div>
+
+    </header>
+
+            <main class="min-vh-100">
+                <div class="app-page">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-4 mt-3">
+                                                <li class="breadcrumb-item"><a href="/">Início</a></li>
+                                                                <li class="breadcrumb-item"><a href="/portfolio">Portfólio</a></li>
+                                                                <li class="breadcrumb-item active">Sistema de Gerenciamento de Identidade Jovem</li>
+                                    </ol>
+    </nav>
+        </div>
+
+        
+            
+    <section class="project-hero">
+        
+                    <img src="https://placehold.co/1920x1080/1a1a1a/white?text=Background+Image"
+                 alt="Background"
+                 class="project-hero-background">
+        
+        
+        <div class="project-hero-content container">
+            
+            <div class="d-flex justify-content-center">
+                                    <img src="https://placehold.co/200x200/0d6efd/white?text=IDJ" alt="Sistema de Gerenciamento de Identidade Jovem Logo"
+                         class="project-logo img-fluid animate-up">
+                            </div>
+
+            
+            <p class="lead text-white text-opacity-75 mb-5 fs-4 animate-up delay-100 mx-auto" style="max-width: 800px;">
+                Desenvolvimento de sistema web para gerenciamento de documentação e dados de jovens brasileiros, integrado com o governo federal.
+            </p>
+
+            
+            <div class="animate-up delay-200 d-flex gap-2 justify-content-center">
+                                                            <a href="#" target="_blank"
+                           class="btn btn-outline-light rounded-pill px-4 fw-bold d-flex align-items-center gap-2">
+                                                            <i class="bi bi-globe"></i>
+                                                        Web
+                        </a>
+                                            <a href="#" target="_blank"
+                           class="btn btn-outline-light rounded-pill px-4 fw-bold d-flex align-items-center gap-2">
+                                                            <i class="bi bi-google-play"></i>
+                                                        Google Play
+                        </a>
+                                                </div>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <div class="row g-5">
+            
+            <div class="col-lg-8">
+
+                
+                                    <div class="mb-5">
+                        <h3 class="h4 text-white mb-4 border-start border-4 border-primary ps-3">Galeria</h3>
+
+                        <div id="projectGalleryCarousel" class="carousel slide gallery-carousel mb-3"
+                             data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                
+                                                                                                    
+                                
+                                                                                                            <div
+                                            class="carousel-item active">
+                                            <img src="https://placehold.co/800x600/2a2a2a/white?text=Dashboard" class="d-block w-100 object-fit-cover"
+                                                 alt="Gallery Image 1" style="aspect-ratio: 16/9;">
+                                        </div>
+                                                                            <div
+                                            class="carousel-item ">
+                                            <img src="https://placehold.co/800x600/2a2a2a/white?text=User+Profile" class="d-block w-100 object-fit-cover"
+                                                 alt="Gallery Image 2" style="aspect-ratio: 16/9;">
+                                        </div>
+                                                                            <div
+                                            class="carousel-item ">
+                                            <img src="https://placehold.co/800x600/2a2a2a/white?text=Reports" class="d-block w-100 object-fit-cover"
+                                                 alt="Gallery Image 3" style="aspect-ratio: 16/9;">
+                                        </div>
+                                                                                                </div>
+
+                                                            <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#projectGalleryCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                        data-bs-target="#projectGalleryCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Próximo</span>
+                                </button>
+                                                    </div>
+
+                        
+                        <div class="row g-2 row-cols-4 row-cols-md-5">
+                                                                                                <div class="col">
+                                        <div class="gallery-thumbnail ratio ratio-16x9"
+                                             role="button"
+                                             onclick="bootstrap.Carousel.getInstance(document.getElementById('projectGalleryCarousel')).to(0)">
+                                            <img src="https://placehold.co/800x600/2a2a2a/white?text=Dashboard" alt="Thumb 1">
+                                        </div>
+                                    </div>
+                                                                    <div class="col">
+                                        <div class="gallery-thumbnail ratio ratio-16x9"
+                                             role="button"
+                                             onclick="bootstrap.Carousel.getInstance(document.getElementById('projectGalleryCarousel')).to(1)">
+                                            <img src="https://placehold.co/800x600/2a2a2a/white?text=User+Profile" alt="Thumb 2">
+                                        </div>
+                                    </div>
+                                                                    <div class="col">
+                                        <div class="gallery-thumbnail ratio ratio-16x9"
+                                             role="button"
+                                             onclick="bootstrap.Carousel.getInstance(document.getElementById('projectGalleryCarousel')).to(2)">
+                                            <img src="https://placehold.co/800x600/2a2a2a/white?text=Reports" alt="Thumb 3">
+                                        </div>
+                                    </div>
+                                                                                    </div>
+                    </div>
+                
+                
+                <div class="mb-5">
+                    <h3 class="h4 text-white mb-4 border-start border-4 border-primary ps-3">Sobre o Projeto</h3>
+                    <div
+                        class="prose prose-invert bg-dark bg-opacity-25 p-4 rounded-3 border border-secondary border-opacity-10">
+                        <h2>Objetivo do Projeto</h2>
+<p>Sistema de gerenciamento de identidade jovem (ID Jovem) desenvolvido como projeto de pesquisa e desenvolvimento com a FUNTEC, em parceria com o Instituto Federal de Goiás.</p>
+<h2>Tecnologias Utilizadas</h2>
+<ul>
+<li><strong>Backend</strong>: PHP 8+ com Framework Laravel</li>
+<li><strong>Database</strong>: MySQL 8+</li>
+<li><strong>Frontend</strong>: Bootstrap 5, JavaScript/TypeScript</li>
+<li><strong>DevOps</strong>: Docker, Git</li>
+</ul>
+<h2>Funcionalidades Principais</h2>
+<ol>
+<li>
+<p><strong>Autenticação e Autorização</strong></p>
+<ul>
+<li>Sistema de login seguro com validação 2FA</li>
+<li>Controle de permissões baseado em papéis (RBAC)</li>
+</ul>
+</li>
+<li>
+<p><strong>Gerenciamento de Dados</strong></p>
+<ul>
+<li>Cadastro e manutenção de documentação</li>
+<li>Upload seguro de arquivos</li>
+<li>Validação de dados em tempo real</li>
+</ul>
+</li>
+<li>
+<p><strong>Relatórios e Analytics</strong></p>
+<ul>
+<li>Dashboards interativos</li>
+<li>Exportação de dados em múltiplos formatos</li>
+</ul>
+</li>
+</ol>
+<h2>Desafios e Soluções</h2>
+<h3>Desafio: Escalabilidade</h3>
+<p>O sistema precisava suportar milhões de registros. Implementamos:</p>
+<ul>
+<li>Indexação otimizada de banco de dados</li>
+<li>Cache com Redis</li>
+<li>Paginação eficiente</li>
+</ul>
+<h3>Desafio: Segurança</h3>
+<p>Como sistema governamental, exigia compliance com LGPD. Soluções:</p>
+<ul>
+<li>Criptografia AES-256 de dados sensíveis</li>
+<li>Auditoria completa de acessos</li>
+<li>Validação de integridade de dados</li>
+</ul>
+<h2>Resultado</h2>
+<ul>
+<li>✅ Lançamento bem-sucedido em produção</li>
+<li>✅ Suporte para 5+ milhões de usuários</li>
+<li>✅ 99.9% uptime garantido</li>
+<li>✅ Processamento de 10K requisições/segundo</li>
+</ul>
+
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-lg-4">
+                <div class="position-sticky" style="top: 100px;">
+
+                    
+                    <div class="card bg-dark border-secondary border-opacity-25 shadow-sm mb-4 info-card">
+                        <div class="card-header bg-transparent border-secondary border-opacity-25 py-3">
+                            <h5 class="card-title mb-0 text-white"><i class="bi bi-info-circle me-2"></i>Informações
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0 d-flex flex-column gap-3">
+                                <li class="d-flex justify-content-between align-items-center border-bottom border-secondary border-opacity-10 pb-2">
+                                    <span class="text-secondary"><i
+                                            class="bi bi-calendar-event me-2"></i>Lançamento</span>
+                                    <span
+                                        class="text-white fw-medium">15/08/2023</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center border-bottom border-secondary border-opacity-10 pb-2">
+                                    <span class="text-secondary"><i class="bi bi-person me-2"></i>Desenvolvedor</span>
+                                    <span
+                                        class="text-white fw-medium">Arthur Ferreira / FUNTEC</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center border-bottom border-secondary border-opacity-10 pb-2">
+                                    <span class="text-secondary"><i class="bi bi-building me-2"></i>Publisher</span>
+                                    <span
+                                        class="text-white fw-medium">Instituto Federal de Goiás</span>
+                                </li>
+                                                                    <li class="d-flex justify-content-between align-items-center border-bottom border-secondary border-opacity-10 pb-2">
+                                        <span class="text-secondary"><i
+                                                class="bi bi-controller me-2"></i>Plataformas</span>
+                                        <div class="d-flex gap-2">
+                                                                                            <span class="text-white" title="Web"
+                                                      data-bs-toggle="tooltip">
+                                                                                                            <i class="bi bi-globe"></i>
+                                                                                                    </span>
+                                                                                            <span class="text-white" title="Google Play"
+                                                      data-bs-toggle="tooltip">
+                                                                                                            <i class="bi bi-google-play"></i>
+                                                                                                    </span>
+                                                                                    </div>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </div>
+
+                    
+                                            <div class="card bg-dark border-secondary border-opacity-25 shadow-sm mb-4 info-card">
+                            <div class="card-header bg-transparent border-secondary border-opacity-25 py-3">
+                                <h5 class="card-title mb-0 text-white"><i class="bi bi-code-slash me-2"></i>Tecnologias
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap gap-2">
+                                                                            <span class="badge-tech">
+                                            PHP
+                                        </span>
+                                                                            <span class="badge-tech">
+                                            Laravel
+                                        </span>
+                                                                            <span class="badge-tech">
+                                            MySQL
+                                        </span>
+                                                                            <span class="badge-tech">
+                                            Government
+                                        </span>
+                                                                    </div>
+                            </div>
+                        </div>
+                    
+                    
+                                            <div class="card bg-dark border-secondary border-opacity-25 shadow-sm mb-4 info-card">
+                            <div class="card-header bg-transparent border-secondary border-opacity-25 py-3">
+                                <h5 class="card-title mb-0 text-white"><i class="bi bi-share me-2"></i>Links Sociais
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex flex-column gap-2">
+                                                                            <a href="#" target="_blank" class="social-link">
+                                            <span>
+                                                                                                    <i class="bi bi-globe me-2"></i>
+                                                                                                Website
+                                            </span>
+                                            <i class="bi bi-box-arrow-up-right opacity-50"></i>
+                                        </a>
+                                                                            <a href="#" target="_blank" class="social-link">
+                                            <span>
+                                                                                                    <i class="bi bi-linkedin me-2"></i>
+                                                                                                LinkedIn
+                                            </span>
+                                            <i class="bi bi-box-arrow-up-right opacity-50"></i>
+                                        </a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="module">
+        document.addEventListener('DOMContentLoaded', function () {
+            let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            });
+        });
+    </script>
+    </div>
+        </main>
+    
+    <footer>
+        <div class="py-4 border-top border-secondary-subtle">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <p class="mb-0 text-body-secondary">
+                    &copy; <span id="copyright-year"></span> <strong>Arthur José Fernandes</strong>. Todos os direitos
+                    reservados.
+                </p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="https://github.com/arthurjf"
+                            class="text-secondary link-light text-decoration-none fs-4 px-2" target="_blank"
+                            aria-label="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://linkedin.com/in/arthurjf"
+                            class="text-secondary link-light text-decoration-none fs-4 px-2" target="_blank"
+                            aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="mailto:contato@arthurjf.com.br"
+                            class="text-secondary link-light text-decoration-none fs-4 px-2" aria-label="Email">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
+</script>
+    </footer>
+
+            <div class="text-warning opacity-75"
+            style="position: fixed; bottom: 10px; right: 10px; font-size: 10px; background: rgba(0,0,0,0.9); padding: 4px 8px; border-radius: 3px; font-family: monospace; pointer-events: none;">
+            staging • ArthurJF • 0.3.0
+        </div>
+    
+        <script type="module">
+        document.addEventListener("DOMContentLoaded", function () {
+            const tooltipTriggerList = document.querySelectorAll('header [data-bs-toggle="tooltip"]')
+            if (window.bootstrap) {
+                [...tooltipTriggerList].map(tooltipTriggerEl => new window.bootstrap.Tooltip(tooltipTriggerEl));
+            }
+        });
+    </script>
+</body>
+
+</html>
