@@ -1,0 +1,5 @@
+# Ignore everything except uploads and .gitignore
+/*
+!/uploads/
+!/uploads/**
+!.gitignore
