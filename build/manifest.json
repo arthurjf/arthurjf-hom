@@ -1,0 +1,56 @@
+{
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BeopsB42.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-mSm7cUeB.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Bi-dqdTp.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-Du8Y8EHi.css"
+    ],
+    "assets": [
+      "assets/bootstrap-icons-mSm7cUeB.woff2",
+      "assets/bootstrap-icons-BeopsB42.woff"
+    ]
+  },
+  "resources/js/editor-canvas.js": {
+    "file": "assets/editor-canvas-B4udlSpG.js",
+    "name": "editor-canvas",
+    "src": "resources/js/editor-canvas.js",
+    "isEntry": true
+  },
+  "resources/sass/admin.scss": {
+    "file": "assets/admin-Bz9Xa9wM.css",
+    "src": "resources/sass/admin.scss",
+    "isEntry": true,
+    "name": "admin",
+    "names": [
+      "admin.css"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-BoYrXqDK.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/sass/editor-canvas.scss": {
+    "file": "assets/editor-canvas-BMAPFGd0.css",
+    "src": "resources/sass/editor-canvas.scss",
+    "isEntry": true,
+    "name": "editor-canvas",
+    "names": [
+      "editor-canvas.css"
+    ]
+  }
+}
